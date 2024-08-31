@@ -1,0 +1,168 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+section{
+  padding-top: 5rem;
+
+}
+header{
+    width: 100%;
+    z-index: 1000;
+    padding:0;
+    justify-content: space-between;
+}
+span{
+    color: #44ff00;
+}
+.navbar ul{
+    display: flex;
+    margin: 0;
+    margin-right: 30px;
+    padding: 0;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    color: rgb(255, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+
+}
+
+.navbar a:hover{
+    color: #00ff2f;
+}
+
+#home img{
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+}
+
+
+#center {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+  }
+  #center h1{
+    font-size: 70px;
+    color: #ffffff;
+    font-style: oblique;
+  
+  }
+  #center h3,p{
+    color: #ffffff;
+  }
+  #center .btn{
+    color: #ffffff;
+    background-color: #02891b6f;
+    border: 2px solid white;
+    border-radius: 20px;
+  }
+  #center .btn:hover{
+background-color: #40b317af;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .menu .nav-tabs {
+    border: 0;
+  }
+  
+  .menu .nav-link {
+    background-color: var(--background-color);
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    margin: 0 15px;
+    padding: 10px 5px;
+    transition: 0.3s;
+    border-radius: 0;
+    cursor: pointer;
+    height: 100%;
+    border: 0;
+    border-bottom: 2px solid color-mix(in srgb, var(--default-color), transparent 80%);
+  }
+  
+ 
+  
+  
+  .menu .tab-content .tab-header {
+    padding: 30px 0;
+  }
+  
+  .menu .tab-content .tab-header p {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    margin-bottom: 0;
+  }
+  
+  .menu .tab-content .tab-header h3 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--accent-color);
+  }
+  
+  .menu .tab-content .menu-item {
+    text-align-last: center;
+  }
+  
+  .menu .tab-content .menu-item .menu-img {
+    padding: 0 60px;
+    margin-bottom: 15px;
+  }
+  
+  .menu .tab-content .menu-item h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-family: var(--default-font);
+  }
+  
+  .menu .tab-content .menu-item .ingredients {
+    font-family: var(--nav-font);
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
+    margin-bottom: 5px;
+  }
+  
+  .menu .tab-content .menu-item .price {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--accent-color);
+  }
+ 
+
+
+
+
+
+
+footer h1{
+    color: rgb(255, 0, 0);
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    padding-bottom: 20px;
+    background-color: #ffffff;
+
+}
